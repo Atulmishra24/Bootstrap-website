@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-1 text-danger text-center" style="background-color: rgba(255, 156, 176, 0.861);">Welcome to Modal</h1>
+            <button class="btn bg-info text-dark" data-target="#MyModel" data-toggle="modal" style="width: 100%; font-size: 25px !important;">Sign Up</button>
+        <div class="modal fade" id="MyModel">
+            <div class="modal-dialog modal-dialog-centered ">
+                <div class="modal-content">
+                    <div class="modal-header" style="margin-left: 21px;">
+                        <h4 class="display-4 text-primary " >Sign Up Now</h4>
+                        <button class="close " data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="form-group">
+                            <label style="font-size: 1.4rem;">
+                                <i class="fa fa-user fa-1.6x"></i> <strong> UserName : </strong>
+                            </label>
+                            <input type="text" name="" id="" class="form-control"> <br>
+                            <label style="font-size: 1.4rem;" ><i class="fa fa-lock fa-1.6x"></i> <strong > Password : </strong></label>
+                            <input type="password" name="" id="" class="form-control"> <br>
+                            <label style="font-size: 1.4rem;" ><i class="fa fa-envelope fa-1.6x"></i> <strong> Email : </strong></label>
+                            <input type="email" name="" id="" class="form-control">
+  <br>
+                            <div>
+                                <button class=" btn bg-danger" style="width: 100%; font-size: 25px !important;">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
